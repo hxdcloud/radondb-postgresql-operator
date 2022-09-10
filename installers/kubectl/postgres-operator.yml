@@ -168,7 +168,7 @@ data:
     reconcile_rbac: "true"
     exporterport: "9187"
     metrics: "true"
-    namespace: "pgo"
+    namespace: "postgresql-hxdcloud"
     namespace_mode: "dynamic"
     pgbadgerport: "10000"
     pgo_add_os_ca_store: "false"
