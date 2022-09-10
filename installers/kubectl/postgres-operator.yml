@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: pgo-deployer-sa
-  namespace: pgo
+  namespace: postgresql-hxdcloud
   labels:
     vendor: radondb
 ---
