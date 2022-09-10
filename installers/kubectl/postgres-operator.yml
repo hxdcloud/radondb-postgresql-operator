@@ -123,7 +123,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: pgo-deployer-cm
-  namespace: pgo
+  namespace: postgresql-hxdcloud
   labels:
     vendor: radondb
 data:
@@ -270,7 +270,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: pgo-deploy
-  namespace: pgo
+  namespace: postgresql-hxdcloud
   labels:
     vendor: radondb
 spec:
